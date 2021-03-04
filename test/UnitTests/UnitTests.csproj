@@ -54,6 +54,7 @@
     <ProjectReference Include="..\..\src\HealthChecks.UI\HealthChecks.UI.csproj" />
     <ProjectReference Include="..\..\src\HealthChecks.Uris\HealthChecks.Uris.csproj" />
     <ProjectReference Include="..\..\src\HealthChecks.Publisher.ApplicationInsights\HealthChecks.Publisher.ApplicationInsights.csproj" />
+    <ProjectReference Include="..\..\src\HealthChecks.SSL\HealthChecks.SSL.csproj" />
   </ItemGroup>
  
   <ItemGroup>
@@ -65,4 +66,7 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="DependencyInjection\Ssl\" />
+  </ItemGroup>
 </Project>
