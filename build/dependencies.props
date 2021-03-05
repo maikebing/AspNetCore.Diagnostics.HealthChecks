@@ -139,5 +139,6 @@
     <HealthChecksUIK8sOperator>3.1.0</HealthChecksUIK8sOperator>
     <HealthCheckSendGrid>3.1.1-preview1</HealthCheckSendGrid>
     <HealthCheckArangoDb>3.1.1-preview1</HealthCheckArangoDb>
+    <HealthCheckSsl>3.1.1</HealthCheckSsl>
   </PropertyGroup>
 </Project>
